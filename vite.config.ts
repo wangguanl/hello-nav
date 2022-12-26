@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import GlobPlugin from 'vite-plugin-glob';
 
 export default defineConfig({
-  base: '/nav/',
+  base: '/browser/',
   server: {
     host: true,
     port: 5000,
