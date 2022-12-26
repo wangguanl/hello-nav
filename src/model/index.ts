@@ -1,28 +1,12 @@
 const PATH_REG = /\.\/modules\/([a-zA-Z_]+?)\.ts$/;
 
 function getModules(context: Record<string, AppItem[]>): CateItem[] {
-  const titleSort = [
-    'community',
-    'Blog',
-    'FRAMEWORK',
-    'UI/DESIGN',
-    'LIBRARY',
-    'NODEJS',
-    'BUILD',
-    'HTML/CSS',
-    'WEBSITE',
-    'OTHER',
-    'LOWCODE',
-    'browser',
-    'utils',
-  ];
+  const titleSort = ['WEBSITE'];
   interface titleName {
     [propName: string]: string;
   }
   const titleRename: titleName = {
-    community: '社区',
-    blog: '博客',
-    utils: '工具',
+    website: '书签',
   };
   const arr: CateItem[] = [];
   Object.keys(context).forEach((path: string) => {
