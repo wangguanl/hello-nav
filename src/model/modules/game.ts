@@ -17,4 +17,10 @@ export default <AppItem[]>[
     keywords: [],
     name: '游戏资源网',
   },
+  {
+    homepage: 'http://cloudjmgm.ysepan.com/',
+    icon: 'http://cloudjmgm.ysepan.com/favicon.ico',
+    keywords: [],
+    name: '生化危机',
+  },
 ];
