@@ -7,7 +7,7 @@ cd dist
 git init
 git add -A
 git commit -m "自动部署"
-git push -f git@github.com:wangguanl/browser.git master:gh-pages
+git push -f git@github.com:wangguanl/page__browser.git master:gh-pages
 
 cd -
 rm -rf dist
