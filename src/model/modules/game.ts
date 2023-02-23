@@ -18,6 +18,12 @@ export default <AppItem[]>[
     name: '游戏资源网',
   },
   {
+    homepage: 'https://www.3kns.com/',
+    icon: 'https://www.3kns.com/favicon.ico',
+    keywords: [],
+    name: 'switch资源网',
+  },
+  {
     homepage: 'http://cloudjmgm.ysepan.com/',
     icon: 'http://cloudjmgm.ysepan.com/favicon.ico',
     keywords: [],
