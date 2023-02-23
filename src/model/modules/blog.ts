@@ -59,4 +59,10 @@ export default <AppItem[]>[
     keywords: ['blog'],
     name: '云游君',
   },
+  {
+    homepage: 'https://github.com/Vengao',
+    icon: 'https://avatars.githubusercontent.com/u/37468835?v=4',
+    keywords: ['blog'],
+    name: 'Vengao',
+  },
 ];
