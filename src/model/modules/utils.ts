@@ -2,6 +2,7 @@ export default <AppItem[]>[
   {
     homepage: [
       { href: 'https://markdown-it.github.io/', title: 'MarkdownIt' },
+      { href: 'https://www.markdown.xyz/', title: 'Markdown' },
       { href: 'http://markdown.p2hp.com/basic-syntax/', title: 'Markdown' },
       { href: 'http://www.markdown.cn/', title: 'Markdown' },
     ],
