@@ -1,12 +1,5 @@
 export default <AppItem[]>[
   {
-    homepage: 'https://vscode.dev/',
-    repository: 'https://vscode.dev/',
-    icon: 'https://vscode.dev/static/stable/favicon.ico',
-    keywords: [],
-    name: 'vscode',
-  },
-  {
     homepage: 'https://github.com/wangguanl',
     repository: 'https://github.com/wangguanl',
     icon: 'https://avatars.githubusercontent.com/u/29368812?v=4',

@@ -1,19 +1,19 @@
 export default <AppItem[]>[
   {
     homepage: 'https://www.zhihu.com/',
-    icon: 'https://www.zhihu.com/favicon.ico',
+    icon: 'zhihu.png',
     keywords: [],
     name: '知乎',
   },
   {
     homepage: 'https://www.bilibili.com/',
-    icon: 'https://www.bilibili.com/favicon.ico',
+    icon: 'bilibili.svg',
     keywords: [],
     name: '哔哩哔哩',
   },
   {
     homepage: 'https://www.douban.com/',
-    icon: 'https://www.douban.com/favicon.ico',
+    icon: 'douban.png',
     keywords: [],
     name: '豆瓣',
   },
@@ -22,5 +22,23 @@ export default <AppItem[]>[
     icon: 'https://zh.wikipedia.org/favicon.ico',
     keywords: [],
     name: '维基百科',
+  },
+  {
+    homepage: 'https://www.youtube.com/',
+    icon: 'youtube.svg',
+    keywords: [],
+    name: 'youtube',
+  },
+  {
+    homepage: 'https://www.ign.com.cn/',
+    icon: 'ign.svg',
+    keywords: [],
+    name: 'ign中国',
+  },
+  {
+    homepage: 'https://portal.shadowsocks.nz/',
+    icon: 'https://portal.shadowsocks.nz/favicon.ico',
+    keywords: [],
+    name: 'shadowsocks',
   },
 ];
