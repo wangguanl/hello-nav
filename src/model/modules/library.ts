@@ -233,4 +233,19 @@ export default <AppItem[]>[
     keywords: ['WebAssembly'],
     name: 'WebAssembly',
   },
+  {
+    homepage: 'https://requirejs.org/',
+    repository: 'https://github.com/requirejs/requirejs',
+    icon: 'requirejs.png',
+    keywords: ['requirejs'],
+    name: 'requirejs',
+  },
+  {
+    homepage: 'https://d3js.org/',
+    repository: 'https://github.com/d3/d3',
+    icon: 'd3js.svg',
+    keywords: ['d3js'],
+    name: 'd3js',
+  },
+  
 ];

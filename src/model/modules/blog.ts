@@ -1,20 +1,8 @@
 export default <AppItem[]>[
   {
-    homepage: 'https://www.w3cplus.com/',
-    icon: 'blog.png',
-    keywords: ['blog'],
-    name: 'w3cplus',
-  },
-  {
-    homepage: 'https://www.w3cschool.cn/zobyhd/48nutozt.html',
-    icon: 'https://7n.w3cschool.cn/statics/images/favicon.ico',
-    keywords: [],
-    name: 'w3cschool',
-  },
-  {
     homepage: 'https://www.ruanyifeng.com/',
     icon: 'ruanyifeng.ico',
-    keywords: ['blog'],
+    keywords: ['blog', '阮一峰'],
     name: '阮一峰',
   },
   {
@@ -65,4 +53,17 @@ export default <AppItem[]>[
     keywords: ['blog'],
     name: 'Vengao',
   },
+  {
+    homepage: 'https://diygod.me/',
+    icon: 'https://ipfs.4everland.xyz/ipfs/bafybeibefx2tyow77m2wcnsh5anaaxfy7ypxbcuapb52c4h255onqp72ye',
+    keywords: ['blog'],
+    name: 'diygod',
+  },
+  {
+    homepage: 'https://ainyi.com/',
+    icon: 'https://ainyi.com/favicon.ico',
+    keywords: ['blog'],
+    name: 'krry',
+  },
+  
 ];

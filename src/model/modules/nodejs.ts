@@ -143,4 +143,16 @@ export default <AppItem[]>[
     name: 'PM2',
     darkInvert: true,
   },
+  {
+    homepage: [
+      {
+        href: 'https://sharp.pixelplumbing.com/api-resize',
+        title: '官网',
+      },
+    ],
+    repository: 'https://github.com/lovell/sharp',
+    icon: 'sharp.svg',
+    keywords: ['sharp'],
+    name: 'sharp',
+  },
 ];

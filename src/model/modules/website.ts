@@ -146,7 +146,10 @@ export default <AppItem[]>[
     name: 'Jenkins',
   },
   {
-    homepage: 'https://code.visualstudio.com/',
+    homepage: [
+      { href: 'https://code.visualstudio.com/', title: '官网' },
+      { href: 'https://vscode.dev/', title: '在线编辑器' },
+    ],
     repository: 'https://github.com/microsoft/vscode',
     icon: 'vscode.png',
     keywords: ['vscode'],
