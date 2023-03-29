@@ -1,5 +1,20 @@
 export default <AppItem[]>[
   {
+    homepage: [
+      {
+        href: 'https://q.shanyue.tech/fe/',
+        title: '博客',
+      },
+      {
+        href: 'https://space.bilibili.com/28696526',
+        title: 'B站主页',
+      },
+    ],
+    icon: 'shanyue.webp',
+    keywords: ['blog', '山月', 'shanyue'],
+    name: '山月',
+  },
+  {
     homepage: 'https://www.ruanyifeng.com/',
     icon: 'ruanyifeng.ico',
     keywords: ['blog', '阮一峰'],
@@ -65,5 +80,4 @@ export default <AppItem[]>[
     keywords: ['blog'],
     name: 'krry',
   },
-  
 ];
