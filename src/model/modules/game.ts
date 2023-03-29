@@ -18,6 +18,12 @@ export default <AppItem[]>[
     name: '游戏资源网',
   },
   {
+    homepage: 'https://mod.3dmgame.com/',
+    icon: '',
+    keywords: [],
+    name: '游戏模型资源网',
+  },
+  {
     homepage: 'https://www.3kns.com/',
     icon: 'https://www.3kns.com/favicon.ico',
     keywords: [],
@@ -28,5 +34,11 @@ export default <AppItem[]>[
     icon: 'http://cloudjmgm.ysepan.com/favicon.ico',
     keywords: [],
     name: '生化危机',
+  },
+  {
+    homepage: 'https://prosettings.net/',
+    icon: '',
+    keywords: [],
+    name: '职业选手所有配置',
   },
 ];
