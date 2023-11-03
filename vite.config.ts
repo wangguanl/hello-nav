@@ -2,8 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import GlobPlugin from 'vite-plugin-glob';
 
-export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/page__browser/' : '',
+export default defineConfig(({ command, mode }) => ({
+  base: command === 'build' && mode !== 'dev' ? '/page__browser/' : '/',
   server: {
     host: true,
     port: 5000,
