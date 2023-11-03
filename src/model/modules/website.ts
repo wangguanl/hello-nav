@@ -118,6 +118,12 @@ export default <AppItem[]>[
     name: 'MDN',
   },
   {
+    homepage: 'https://devdocs.io/',
+    icon: 'https://devdocs.io/favicon.ico',
+    keywords: ['mdn', 'devdocs'],
+    name: 'devdocs',
+  },
+  {
     homepage: 'https://javascript.info/',
     repository: 'https://github.com/javascript-tutorial',
     icon: 'javascript-tutorial.png',
