@@ -1,6 +1,9 @@
 export default <AppItem[]>[
   {
-    homepage: 'https://vuejs.org/',
+    homepage: [
+      { href: 'https://cn.vuejs.org/', title: '中文官网' },
+      { href: 'https://vuejs.org/', title: '英文官网' },
+    ],
     repository: 'https://github.com/vuejs/core',
     icon: 'vue.png',
     keywords: ['vue'],
@@ -8,15 +11,15 @@ export default <AppItem[]>[
   },
   {
     homepage: [
-      { href: 'https://reactjs.org/', title: '英文版官网' },
       { href: 'https://zh-hans.reactjs.org/', title: '中文版官网' },
-      {
-        href: 'https://beta.reactjs.org/learn/importing-and-exporting-components',
-        title: '英文版新官网',
-      },
+      { href: 'https://reactjs.org/', title: '英文版官网' },
       {
         href: 'https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/',
         title: '生命周期',
+      },
+      {
+        href: 'https://beta.reactjs.org/learn/importing-and-exporting-components',
+        title: '英文版新官网',
       },
     ],
     repository: 'https://github.com/facebook/react/',

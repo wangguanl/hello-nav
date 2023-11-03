@@ -1,6 +1,9 @@
 export default <AppItem[]>[
   {
-    homepage: 'https://nodejs.org',
+    homepage: [
+      { href: 'https://nodejs.cn/', title: '中文官网' },
+      { href: 'https://nodejs.org', title: '英文官网' },
+    ],
     repository: 'https://github.com/nodejs/node/',
     icon: 'nodejs.png',
     keywords: ['nodejs'],
@@ -136,7 +139,10 @@ export default <AppItem[]>[
     darkInvert: true,
   },
   {
-    homepage: 'https://pm2.keymetrics.io/', // https://pm2.io/
+    homepage: [
+      { href: 'https://pm2.keymetrics.io/', title: 'keymetrics' },
+      { href: 'https://pm2.io/', title: 'pm2' },
+    ],
     repository: 'https://github.com/Unitech/pm2',
     icon: 'pm2.png',
     keywords: ['pm2'],
