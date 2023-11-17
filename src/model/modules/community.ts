@@ -36,7 +36,10 @@ export default <AppItem[]>[
     name: 'ign中国',
   },
   {
-    homepage: 'https://portal.shadowsocks.nz/',
+    homepage: [
+      { href: 'https://portal.shadowsocks.au/', title: '主线' },
+      { href: 'https://portal.shadowsocks.nz/', title: '备用' },
+    ],
     icon: 'https://portal.shadowsocks.nz/favicon.ico',
     keywords: [],
     name: 'shadowsocks',

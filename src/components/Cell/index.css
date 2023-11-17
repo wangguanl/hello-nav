@@ -45,7 +45,7 @@
 .cell .corner-icon-wrap .corner-icon {
   width: 13px;
   height: 13px;
-  transform: rotate(45deg) ;
+  transform: rotate(45deg);
 }
 
 .cell .app:hover {
@@ -60,21 +60,27 @@
   height: 22px;
 }
 
-
 .cell .img-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cell img {
+.cell img,
+.img-box > div {
   width: 50px;
   height: fit-content;
   max-height: 50px;
   border-radius: 4px;
   transition: filter 0.3s;
 }
-
+.img-box > div {
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .cell .title {
   overflow: hidden;
   text-overflow: ellipsis;
