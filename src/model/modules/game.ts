@@ -1,6 +1,9 @@
 export default <AppItem[]>[
   {
-    homepage: 'https://store.steampowered.com/',
+    homepage: [
+      { href: 'https://store.steampowered.com/', title: '官网' },
+      { href: 'https://www.steamtools.net/zn.html', title: 'steamtools' },
+    ],
     icon: 'https://store.steampowered.com/favicon.ico',
     keywords: [],
     name: 'Steam',
@@ -10,6 +13,12 @@ export default <AppItem[]>[
     icon: 'https://www.epicgames.com/favicon.ico',
     keywords: [],
     name: 'EPIC',
+  },
+  {
+    homepage: 'https://www.metacritic.com/browse/game/?releaseYearMin=1910&releaseYearMax=2023&page=1',
+    icon: 'https://www.metacritic.com/a/img/favicon.svg',
+    keywords: [],
+    name: '最佳游戏排行',
   },
   {
     homepage: 'https://xxxxx520.com/',

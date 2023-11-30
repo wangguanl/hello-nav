@@ -33,8 +33,15 @@ export default <AppItem[]>[
     homepage: 'https://www.ign.com.cn/',
     icon: 'ign.svg',
     keywords: [],
-    name: 'ign中国',
+    name: 'IGN中国',
   },
+  {
+    homepage: 'https://www.metacritic.com/',
+    icon: 'https://www.metacritic.com/a/img/favicon.svg',
+    keywords: [],
+    name: 'MetaCritic',
+  },
+  
   {
     homepage: [
       { href: 'https://portal.shadowsocks.au/', title: '主线' },
