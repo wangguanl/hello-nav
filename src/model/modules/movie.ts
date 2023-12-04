@@ -24,4 +24,11 @@ export default <AppItem[]>[
     keywords: [],
     name: '阿里云盘资源共享站',
   },
+  {
+    homepage: 'https://movie.douban.com/top250',
+    icon: 'douban.png',
+    keywords: [],
+    name: '豆瓣top250',
+  },
+  
 ];

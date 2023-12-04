@@ -12,6 +12,12 @@ export default <AppItem[]>[
     name: '微信读书',
   },
   {
+    homepage: 'https://book.douban.com/top250',
+    icon: 'douban.png',
+    keywords: [],
+    name: '豆瓣top250',
+  },
+  {
     homepage: [
       {
         href: 'https://z-lib.is/s?q=%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC',
