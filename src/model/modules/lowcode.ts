@@ -14,14 +14,14 @@ export default <AppItem[]>[
     name: '华为云建站',
   },
   {
-    homepage: '',
+    homepage: 'https://lanhuapp.com/',
     repository: '',
     icon: '',
     keywords: [],
     name: '蓝狐',
   },
   {
-    homepage: '',
+    homepage: 'https://code.fun',
     repository: '',
     icon: '',
     keywords: [],
