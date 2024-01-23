@@ -30,5 +30,10 @@ export default <AppItem[]>[
     keywords: [],
     name: '豆瓣top250',
   },
-  
+  {
+    homepage: 'https://www.imdb.com/',
+    icon: '',
+    keywords: [],
+    name: 'imdb',
+  },
 ];
