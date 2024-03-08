@@ -41,7 +41,6 @@ export default <AppItem[]>[
     keywords: [],
     name: 'MetaCritic',
   },
-  
   {
     homepage: [
       { href: 'https://portal.shadowsocks.au/', title: '主线' },

@@ -15,34 +15,36 @@ export default <AppItem[]>[
     name: 'EPIC',
   },
   {
-    homepage: 'https://www.metacritic.com/browse/game/?releaseYearMin=1910&releaseYearMax=2023&page=1',
+    homepage:
+      'https://www.metacritic.com/browse/game/?releaseYearMin=1910&releaseYearMax=2023&page=1',
     icon: 'https://www.metacritic.com/a/img/favicon.svg',
     keywords: [],
     name: '最佳游戏排行',
   },
   {
-    homepage: 'https://xxxxx520.com/',
+    homepage: [
+      {
+        href: 'https://sway.cloud.microsoft/1ESaLEE3x47BTgZC',
+        title: 'gamer520',
+      },
+      {
+        href: 'https://www.3kns.com/',
+        title: '3kns-switch资源',
+        icon: 'https://www.3kns.com/favicon.ico',
+      },
+    ],
     icon: 'https://sway.office.com/s/bRQwebfLdaNez2Nl/images/P31w2bg4VTaH9a',
     keywords: [],
     name: '游戏资源网',
   },
   {
-    homepage: 'https://mod.3dmgame.com/',
+    homepage: [
+      { href: 'https://mod.3dmgame.com/', title: '3dm' },
+      { href: 'https://www.nexusmods.com', title: 'nexusmods' },
+    ],
     icon: '',
     keywords: [],
     name: '游戏模型资源网',
-  },
-  {
-    homepage: 'https://www.3kns.com/',
-    icon: 'https://www.3kns.com/favicon.ico',
-    keywords: [],
-    name: 'switch资源网',
-  },
-  {
-    homepage: 'http://cloudjmgm.ysepan.com/',
-    icon: 'http://cloudjmgm.ysepan.com/favicon.ico',
-    keywords: [],
-    name: '生化危机',
   },
   {
     homepage: 'https://prosettings.net/',
