@@ -81,6 +81,11 @@ function App() {
           setFilterKey(keyword);
           setList(filtersMap[type](keyword));
         }}
+        onClear={() => {
+          const keyword = '';
+          setFilterKey(keyword);
+          setList(filtersMap[type](keyword));
+        }}
         type={type}
         toggleType={() => toggleType(setType, setList)}
       />
