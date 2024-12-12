@@ -1,21 +1,8 @@
-import PandaBtn from '../PandaBtn';
 import './index.css';
 
-function ActionBar({ filterKey, onInput, toggleType, type }: FilterProps) {
+function ActionBar({ filterKey, onInput, onClear }: FilterProps) {
   return (
     <div className="filter-bar">
-      {/* <span className="filter-bar__btn">
-        <PandaBtn />
-        <span
-          className="filter-bar__toggle-btn"
-          onClick={toggleType}
-          onKeyDown={() => {}}
-        >
-          <svg className={`icon ${type}-icon`}>
-            <use href={`#icon-${type}`} />
-          </svg>
-        </span>
-      </span> */}
       <span className="filter-bar__input-warp">
         <input
           aria-label="filterIpt"
@@ -28,14 +15,9 @@ function ActionBar({ filterKey, onInput, toggleType, type }: FilterProps) {
         <svg className="icon search-icon">
           <use href="#icon-search" />
         </svg>
-        {/* filterKey ? (
-          <svg
-            className="icon clear-icon"
-            onClick={() => onInput({ target: { value: '' } })}
-          >
-            <use href="#icon-close" />
-          </svg>
-        ) : null */}
+        <svg className="icon clear-icon" onClick={onClear}>
+          <use href="#icon-close" />
+        </svg>
       </span>
     </div>
   );
