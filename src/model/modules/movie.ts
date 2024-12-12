@@ -1,7 +1,7 @@
 export default <AppItem[]>[
   {
     homepage: [
-      { href: 'https://newxiaozhan.com/', title: '小站' },
+      { href: 'https://pan666.net', title: '小站' },
       { href: 'https://yunpan1.24kdh.cn/', title: '云盘资源分享社区' },
       {
         href: 'http://xdys88.com.cn/#/',
