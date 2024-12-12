@@ -28,6 +28,7 @@ interface FiltersMap {
 
 interface FilterProps {
   onInput(e: React.FormEvent): void;
+  onClear(): void;
   filterKey: string;
   toggleType: any;
   type: string;

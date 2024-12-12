@@ -22,7 +22,6 @@ function getRandomColor() {
   }
   return color;
 }
-
 const TextColorBox = (name: string) => (
   <div
     style={{
