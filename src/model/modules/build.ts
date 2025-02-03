@@ -1,6 +1,15 @@
 export default <AppItem[]>[
   {
-    homepage: 'https://webpack.js.org/',
+    homepage: [
+      {
+        href: 'https://webpack.js.cn/',
+        title: '中文官网',
+      },
+      {
+        href: 'https://webpack.js.org/',
+        title: '英文官网',
+      },
+    ],
     repository: 'https://github.com/webpack/webpack',
     icon: 'webpack.png',
     keywords: ['webpack'],
@@ -84,7 +93,16 @@ export default <AppItem[]>[
     name: 'Browserify',
   },
   {
-    homepage: 'https://vitejs.dev/',
+    homepage: [
+      {
+        href: 'https://cn.vite.dev/',
+        title: '中文官网',
+      },
+      {
+        href: 'https://vite.dev/',
+        title: '英文官网',
+      },
+    ],
     repository: 'https://github.com/vitejs/vite',
     icon: 'vite.png',
     keywords: ['vite'],

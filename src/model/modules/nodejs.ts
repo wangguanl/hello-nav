@@ -10,14 +10,21 @@ export default <AppItem[]>[
     name: 'NodeJS',
   },
   {
-    homepage: 'http://expressjs.com/',
+    homepage: [
+      { href: 'https://expressjs.com.cn/', title: '中文官网' },
+      { href: 'http://expressjs.com/', title: '英文官网' },
+    ],
     repository: 'https://github.com/expressjs/express',
     icon: 'express.png',
     keywords: ['express'],
     name: 'Express',
   },
   {
-    homepage: 'https://koajs.com/',
+    homepage: [
+      { href: 'https://www.koajs.net/', title: '中文官网' },
+      { href: 'https://koa.bootcss.com/', title: '中文官网' },
+      { href: 'https://koajs.com/', title: '英文官网' },
+    ],
     repository: 'https://github.com/koajs/koa',
     icon: 'koa.png',
     keywords: ['koa'],
