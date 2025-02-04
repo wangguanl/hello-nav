@@ -246,12 +246,6 @@ export default <AppItem[]>[
     name: 'SmashingMagazine',
   },
   {
-    homepage: 'https://portal.shadowsocks.nz/',
-    icon: 'vpn.webp',
-    keywords: ['VPN'],
-    name: 'VPN',
-  },
-  {
     homepage: 'https://www.wangdoc.com/html/',
     icon: 'wangdoc.svg',
     keywords: ['网道', 'wang', 'doc', 'wangdoc'],

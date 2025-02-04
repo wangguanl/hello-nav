@@ -281,14 +281,23 @@ export default <AppItem[]>[
     name: 'Jekyll',
   },
   {
-    homepage: 'https://single-spa.js.org/',
+    homepage: [
+      {
+        href: 'https://zh-hans.single-spa.js.org/',
+        title: '中文官网',
+      },
+      {
+        href: 'https://single-spa.js.org/',
+        title: '英文官网',
+      },
+    ],
     repository: 'https://github.com/single-spa/single-spa',
     icon: 'single-spa.png',
     keywords: ['single-spa'],
     name: 'SingleSPA',
   },
   {
-    homepage: 'https://qiankun.umijs.org',
+    homepage: 'https://qiankun.umijs.org/zh',
     repository: 'https://github.com/umijs/qiankun',
     icon: 'qiankun.png',
     keywords: ['qiankun', '乾坤'],
@@ -301,6 +310,14 @@ export default <AppItem[]>[
     keywords: ['wujie', '无界'],
     name: 'WuJie',
   },
+  {
+    homepage: 'https://jd-opensource.github.io/micro-app/',
+    repository: 'https://github.com/jd-opensource/micro-app',
+    icon: 'micro.png',
+    keywords: ['Micro-app', 'Micro'],
+    name: 'Micro-app',
+  },
+  
   {
     homepage: 'https://mpxjs.cn/',
     repository: 'https://github.com/didi/mpx',
