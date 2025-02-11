@@ -78,7 +78,13 @@ export default <AppItem[]>[
     name: 'Nginx',
   },
   {
-    homepage: 'https://redis.io/',
+    homepage: [
+      { href: 'https://redis.io/', title: '官网' },
+      {
+        href: 'https://github.com/microsoftarchive/redis/releases',
+        title: 'Windows本地下载',
+      },
+    ],
     repository: 'https://github.com/redis',
     icon: 'redis.png',
     keywords: ['redis'],

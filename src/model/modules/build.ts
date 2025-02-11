@@ -2,7 +2,7 @@ export default <AppItem[]>[
   {
     homepage: [
       {
-        href: 'https://webpack.js.cn/',
+        href: 'https://webpack.docschina.org/',
         title: '中文官网',
       },
       {

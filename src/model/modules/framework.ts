@@ -162,8 +162,17 @@ export default <AppItem[]>[
     darkInvert: true,
   },
   {
-    homepage: 'https://nuxtjs.org/',
-    repository: 'https://github.com/nuxt/nuxt.js',
+    homepage: [
+      {
+        href: 'https://nuxt.com.cn/',
+        title: '中文官网',
+      },
+      {
+        href: 'https://nuxt.com/',
+        title: '英文官网',
+      },
+    ],
+    repository: 'https://github.com/nuxt/nuxt',
     icon: 'nuxt.png',
     keywords: ['nuxt', 'vue'],
     name: 'Nuxt',
@@ -317,7 +326,7 @@ export default <AppItem[]>[
     keywords: ['Micro-app', 'Micro'],
     name: 'Micro-app',
   },
-  
+
   {
     homepage: 'https://mpxjs.cn/',
     repository: 'https://github.com/didi/mpx',
