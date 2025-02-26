@@ -1,7 +1,7 @@
 const PATH_REG = /\.\/modules\/([a-zA-Z_]+?)\.ts$/;
 
 function getModules(context: Record<string, AppItem[]>): CateItem[] {
-  const titleSort = [
+  const titleSort: Array<string> = [
     'nav',
     'community',
     'WEBSITE',
