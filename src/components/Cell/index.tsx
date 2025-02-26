@@ -82,7 +82,7 @@ const single = ({ homepage, icon, repository, name, darkInvert }: AppItem) => {
 
 const Cell = ({ homepage, icon, repository, name, darkInvert }: AppItem) => (
   <li className="cell">
-    {Array.isArray(homepage) && homepage.length > 1 ? (
+    {Array.isArray(homepage) && homepage.length > 0 ? (
       <Dropdown
         menu={{
           items: homepage.map(({ href, title }) => ({
