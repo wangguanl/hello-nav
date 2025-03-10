@@ -160,7 +160,23 @@ export default <AppItem[]>[
     name: 'Flow',
   },
   {
-    homepage: 'https://prettier.io/',
+    homepage: 'https://editorconfig.org/',
+    repository: 'https://github.com/editorconfig/',
+    icon: 'editorconfig.png',
+    keywords: ['editorconfig'],
+    name: 'editorconfig',
+  },
+  {
+    homepage: [
+      {
+        href: 'https://prettier.cn/',
+        title: '中官网',
+      },
+      {
+        href: 'https://prettier.io/',
+        title: '英文官网',
+      },
+    ],
     repository: 'https://github.com/prettier/prettier',
     icon: 'prettier.png',
     keywords: ['prettier'],
