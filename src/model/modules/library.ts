@@ -7,7 +7,10 @@ export default <AppItem[]>[
     name: 'Pinia',
   },
   {
-    homepage: 'https://redux.js.org/',
+    homepage: [
+      { href: 'https://www.redux.org.cn/', title: '中文网' },
+      { href: 'https://redux.js.org/', title: '官网' },
+    ],
     repository: 'https://github.com/reduxjs/redux',
     icon: 'redux.png',
     keywords: ['redux'],
