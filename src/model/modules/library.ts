@@ -177,10 +177,26 @@ export default <AppItem[]>[
     name: 'Mirage',
   },
   {
-    homepage: 'https://highlightjs.org/',
+    homepage: [
+      {
+        href: 'https://highlightjs.org/',
+        title: '官网',
+      },
+      {
+        href: 'https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md',
+        title: '支持语言列表',
+      },
+    ],
     repository: 'https://github.com/highlightjs/highlight.js',
     icon: 'hljs.png',
-    keywords: ['highlightjs', 'highlight.js', 'hljs'],
+    keywords: [
+      'highlightjs',
+      'highlight.js',
+      'hljs',
+      '代码',
+      '高亮',
+      'highlight',
+    ],
     name: 'HighlightJS',
   },
   {
@@ -247,5 +263,4 @@ export default <AppItem[]>[
     keywords: ['d3js'],
     name: 'd3js',
   },
-  
 ];

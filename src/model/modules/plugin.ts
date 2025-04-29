@@ -2,27 +2,6 @@ export default <AppItem[]>[
   {
     homepage: [
       {
-        href: 'http://highlight.cndoc.wiki/doc',
-        title: '中文文档',
-      },
-      {
-        href: 'https://highlightjs.org/',
-        title: '官网',
-      },
-      {
-        href: 'https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md',
-        title: '支持语言列表',
-      },
-    ],
-    repository:
-      'https://github.com/highlightjs/highlight.js#es6-modules--import',
-    icon: 'highlight.png',
-    keywords: ['代码', '高亮', 'highlight'],
-    name: 'highlight',
-  },
-  {
-    homepage: [
-      {
         href: 'https://sortablejs.github.io/Vue.Draggable/#/simple',
         title: '演示-vue2',
       },
