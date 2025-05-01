@@ -53,7 +53,10 @@ export default <AppItem[]>[
     name: 'PreCommit',
   },
   {
-    homepage: 'https://lodash.com/',
+    homepage: [
+      { href: 'https://www.lodashjs.com/', title: '中文网' },
+      { href: 'https://lodash.com/', title: '英文官网' },
+    ],
     repository: 'https://github.com/lodash/lodash/',
     icon: 'lodash.png',
     keywords: ['lodash'],
