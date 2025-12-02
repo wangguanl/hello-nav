@@ -13,16 +13,16 @@
     "deploy": "deploy.sh"
   },
   "dependencies": {
-    "antd": "^5.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "antd": "^6.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.18",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^4.3.4",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.6",
     "vite-plugin-glob": "^0.3.2"
   }
 }
