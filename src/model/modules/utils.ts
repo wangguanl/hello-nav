@@ -12,4 +12,17 @@ export default <AppItem[]>[
     name: 'Markdown',
     darkInvert: true,
   },
+  {
+    homepage: [
+      { href: 'https://apifox.com/', title: 'Apifox' },
+      { href: 'https://www.processon.com/', title: 'ProcessOn' },
+      { href: 'https://www.omnigroup.com/omnigraffle', title: 'OmniGraffle' },
+      { href: 'https://app.diagrams.net/', title: 'diagrams.net' },
+    ],
+    repository: '',
+    icon: 'utils.png',
+    keywords: ['api', 'document', 'mock', 'test', 'mindmap', 'diagram', 'design'],
+    name: 'Utilities',
+    darkInvert: false,
+  },
 ];

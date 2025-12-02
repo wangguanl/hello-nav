@@ -62,4 +62,14 @@ export default <AppItem[]>[
     keywords: [],
     name: 'mozi',
   },
+  {
+    homepage: [
+      { href: 'https://wordpress.org/', title: 'WordPress' },
+      { href: 'https://github.com/WordPress/gutenberg', title: 'gutenberg' },
+    ],
+    repository: 'https://github.com/WordPress/WordPress',
+    icon: 'https://wordpress.org/gutenberg/files/2022/06/wmark.png',
+    keywords: [],
+    name: 'WordPress',
+  },
 ];
