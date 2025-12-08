@@ -160,4 +160,21 @@ export default <AppItem[]>[
     name: '待办事项',
     darkInvert: false,
   },
+  {
+    homepage: [
+      { href: 'https://www.theappleai.tech/', title: 'AppleAi' },
+      { href: 'https://openai.com/chatgpt/mac/', title: 'ChatGPT' },
+      { href: 'https://claude.ai/download', title: 'Claude' },
+      { href: 'https://www.cherry-ai.com/', title: 'Cherry Studio' },
+      { href: 'https://chatboxai.app', title: 'Chatbox' },
+      { href: 'https://jan.ai/', title: 'Jan' },
+      { href: 'https://github.com/nbonamy/witsy', title: 'Witsy' },
+      { href: 'https://www.remio.ai/', title: 'remio' },
+    ],
+    repository: '',
+    icon: 'ai.png',
+    keywords: ['ai', 'chatgpt', 'claude', 'assistant', 'llm'],
+    name: 'AI 客户端',
+    darkInvert: false,
+  },
 ];
