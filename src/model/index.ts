@@ -44,14 +44,14 @@ function getModules(context: Record<string, AppItem[]>): CateItem[] {
   return arr;
 }
 
-const modules = import.meta.glob('./modules/*.ts', { eager: true });
+const modules = import.meta.glob('./modules/*.ts', {
+  eager: true,
+  import: 'default',
+});
 
-const context: Record<string, AppItem[]> = {};
-for (const path in modules) {
-  context[path] = (modules[path] as any).default;
-}
+const context: Record<string, AppItem[]> = modules as Record<string, AppItem[]>;
 
-let libraryTree: CateItem[] = getModules(context);
+const libraryTree: CateItem[] = getModules(context);
 
 if (import.meta.hot) {
   import.meta.hot.accept(() => {

@@ -11,11 +11,6 @@ export default defineConfig(({ command, mode }) => ({
     },
   },
   plugins: [react()],
-  esbuild: {
-    logOverride: {
-      'this-is-undefined-in-esm': 'silent',
-    },
-  },
   build: {
     chunkSizeWarningLimit: 800,
   },
