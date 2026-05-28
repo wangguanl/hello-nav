@@ -37,7 +37,6 @@ const TextColorBox = (name: string) => (
 
 const single = ({ homepage, icon, repository, name, darkInvert }: AppItem) => {
   const [ErrImg, setErrImg] = useState(true);
-  console.log(ErrImg);
 
   return (
     <a className="app" href={homepage as string} title={name} target="_blank">
