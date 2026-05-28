@@ -37,12 +37,19 @@ function getModules(context: Record<string, AppItem[]>): CateItem[] {
   return arr;
 }
 
-const context: Record<string, AppItem[]> = import.meta.importGlob(
-  './modules/*.ts',
-  {
-    eager: true,
-    import: 'default',
-  }
-);
+const modules = import.meta.glob('./modules/*.ts', {
+  eager: true,
+  import: 'default',
+});
 
-export default <CateItem[]>getModules(context);
+const context: Record<string, AppItem[]> = modules as Record<string, AppItem[]>;
+
+const libraryTree: CateItem[] = getModules(context);
+
+if (import.meta.hot) {
+  import.meta.hot.accept(() => {
+    window.location.reload();
+  });
+}
+
+export default libraryTree;
