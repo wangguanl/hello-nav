@@ -1,16 +1,6 @@
 export default <AppItem[]>[
   {
     homepage: [
-      { href: 'https://nodejs.cn/', title: '中文官网' },
-      { href: 'https://nodejs.org', title: '英文官网' },
-    ],
-    repository: 'https://github.com/nodejs/node/',
-    icon: 'nodejs.png',
-    keywords: ['nodejs'],
-    name: 'NodeJS',
-  },
-  {
-    homepage: [
       { href: 'https://expressjs.com.cn/', title: '中文官网' },
       { href: 'http://expressjs.com/', title: '英文官网' },
     ],

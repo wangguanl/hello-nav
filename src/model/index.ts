@@ -1,20 +1,24 @@
-const PATH_REG = /\.\/modules\/([a-zA-Z_]+?)\.ts$/;
-
 function getModules(context: Record<string, AppItem[]>): CateItem[] {
   const titleSort = [
+    'AI/Agent',
     'community',
     'Blog',
     'FRAMEWORK',
-    'UI/DESIGN',
+    'UI FRAMEWORK',
     'LIBRARY',
     'PLUGIN',
-    'NODEJS',
+    'RUNTIME/SERVER',
+    'JS SERVER FRAMEWORK',
     'BUILD',
     'HTML/CSS',
     'WEBSITE',
+    'DESIGN website',
+    'MINI PROGRAM',
+    'STATIC SITE',
     'OTHER',
     'LOWCODE',
     'browser',
+    'web3d',
     'utils',
   ];
   interface titleName {
@@ -27,7 +31,7 @@ function getModules(context: Record<string, AppItem[]>): CateItem[] {
   };
   const arr: CateItem[] = [];
   Object.keys(context).forEach((path: string) => {
-    const title = path.replace(PATH_REG, (_, $1) => $1.replace('_', '/'));
+    const title = path.replace(/^\.\/modules\//, '').replace(/_/, '/').replace(/\.ts$/, '');
     arr[
       titleSort
         .map(i => i.toLocaleUpperCase())
@@ -40,12 +44,19 @@ function getModules(context: Record<string, AppItem[]>): CateItem[] {
   return arr;
 }
 
-const context: Record<string, AppItem[]> = import.meta.importGlob(
-  './modules/*.ts',
-  {
-    eager: true,
-    import: 'default',
-  }
-);
+const modules = import.meta.glob('./modules/*.ts', { eager: true });
 
-export default <CateItem[]>getModules(context);
+const context: Record<string, AppItem[]> = {};
+for (const path in modules) {
+  context[path] = (modules[path] as any).default;
+}
+
+let libraryTree: CateItem[] = getModules(context);
+
+if (import.meta.hot) {
+  import.meta.hot.accept(() => {
+    window.location.reload();
+  });
+}
+
+export default libraryTree;
